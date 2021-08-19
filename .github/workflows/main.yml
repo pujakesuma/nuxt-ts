@@ -12,7 +12,8 @@ jobs:
 
     strategy:
       matrix:
-        api: [options, class, composition]
+        # api: [options, class, composition]
+        api: [composition]
 
     steps:
       - uses: actions/checkout@v2
